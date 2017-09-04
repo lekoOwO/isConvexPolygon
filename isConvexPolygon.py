@@ -17,7 +17,7 @@ def isSameSign(nums): # if numbers in nums are same-signed
         return 'All the Numbers are 0.'
 
     if not isinstance(numOfNotZero(nums), int):
-        return 'All points are in a line.'
+        return 'All the Numbers are 0.'
     else: 
         for i in nums:
             if i*nums[numOfNotZero(nums)] < 0:
